@@ -1,0 +1,50 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-DDEBUG",
+            "-o",
+            "address_book_main_debug.o",
+            "address_book_main.cpp"
+        ],
+        "directory": "/home/jkammath/Desktop/Abook",
+        "file": "address_book_main.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-DDEBUG",
+            "-o",
+            "llist_debug.o",
+            "llist.cpp"
+        ],
+        "directory": "/home/jkammath/Desktop/Abook",
+        "file": "llist.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-DDEBUG",
+            "-o",
+            "address_book_debug.o",
+            "address_book.cpp"
+        ],
+        "directory": "/home/jkammath/Desktop/Abook",
+        "file": "address_book.cpp"
+    },
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "-DDEBUG",
+            "-o",
+            "statictest_debug.o",
+            "statictest.cpp"
+        ],
+        "directory": "/home/jkammath/Desktop/Abook",
+        "file": "statictest.cpp"
+    }
+]

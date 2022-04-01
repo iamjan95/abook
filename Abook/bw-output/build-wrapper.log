@@ -1,0 +1,1624 @@
+Fri Apr 01 10:59:27 2022: build-wrapper, version 6.30 (linux-x86)
+Fri Apr 01 10:59:27 2022: System name: Linux Nodename: 8KY6DK2 Release: 5.13.0-37-generic Version: #42~20.04.1-Ubuntu SMP Tue Mar 15 15:44:28 UTC 2022 Machine: x86_64
+Fri Apr 01 10:59:27 2022: socket path: /tmp/build-wrapper-socket.83fnly
+Fri Apr 01 10:59:27 2022: dynamic library found: /home/jkammath/Documents/build-wrapper/libinterceptor-i686.so
+Fri Apr 01 10:59:27 2022: dynamic library found: /home/jkammath/Documents/build-wrapper/libinterceptor-x86_64.so
+Fri Apr 01 10:59:27 2022: dynamic library found: /home/jkammath/Documents/build-wrapper/libinterceptor-haswell.so
+Fri Apr 01 10:59:27 2022: cwd: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: command executed as: <build-wrapper-linux-x86-64 --out-dir bw-output>
+Fri Apr 01 10:59:27 2022: out-dir absolute path: </home/jkammath/Desktop/Abook/bw-output>
+Fri Apr 01 10:59:27 2022: command line received: <make debug -B>
+Fri Apr 01 10:59:27 2022: env 0: <SHELL=/bin/bash>
+Fri Apr 01 10:59:27 2022: env 1: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:27 2022: env 2: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:27 2022: env 3: <COLORTERM=truecolor>
+Fri Apr 01 10:59:27 2022: env 4: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:27 2022: env 5: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:27 2022: env 6: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:27 2022: env 7: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: env 8: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:27 2022: env 9: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: env 10: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:27 2022: env 11: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:27 2022: env 12: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:27 2022: env 13: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:27 2022: env 14: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:27 2022: env 15: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:27 2022: env 16: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:27 2022: env 17: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:27 2022: env 18: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: env 19: <LOGNAME=jkammath>
+Fri Apr 01 10:59:27 2022: env 20: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:27 2022: env 21: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:27 2022: env 22: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:27 2022: env 23: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:27 2022: env 24: <WINDOWPATH=2>
+Fri Apr 01 10:59:27 2022: env 25: <HOME=/home/jkammath>
+Fri Apr 01 10:59:27 2022: env 26: <USERNAME=jkammath>
+Fri Apr 01 10:59:27 2022: env 27: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:27 2022: env 28: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:27 2022: env 29: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:27 2022: env 30: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:27 2022: env 31: <VTE_VERSION=6003>
+Fri Apr 01 10:59:27 2022: env 32: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:27 2022: env 33: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:27 2022: env 34: <MANAGERPID=217935>
+Fri Apr 01 10:59:27 2022: env 35: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: env 36: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:27 2022: env 37: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:27 2022: env 38: <TERM=xterm-256color>
+Fri Apr 01 10:59:27 2022: env 39: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:27 2022: env 40: <USER=jkammath>
+Fri Apr 01 10:59:27 2022: env 41: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:27 2022: env 42: <DISPLAY=:0>
+Fri Apr 01 10:59:27 2022: env 43: <SHLVL=1>
+Fri Apr 01 10:59:27 2022: env 44: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:27 2022: env 45: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: env 46: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:27 2022: env 47: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:27 2022: env 48: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:27 2022: env 49: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:27 2022: env 50: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:27 2022: env 51: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:27 2022: env 52: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:27 2022: env 53: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:27 2022: executing: <make debug -B>
+Fri Apr 01 10:59:27 2022: initializing json file
+Fri Apr 01 10:59:27 2022: process created with pid: 357156
+Fri Apr 01 10:59:27 2022: parent pid: 357155
+Fri Apr 01 10:59:27 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: executable: </home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:27 2022: argv[0]: <build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:27 2022: argv[1]: <-c>
+Fri Apr 01 10:59:27 2022: argv[2]: <>
+Fri Apr 01 10:59:27 2022: argv[3]: <make>
+Fri Apr 01 10:59:27 2022: argv[4]: <debug>
+Fri Apr 01 10:59:27 2022: argv[5]: <-B>
+Fri Apr 01 10:59:27 2022: skipping process with pid: 357156
+Fri Apr 01 10:59:27 2022: process created with pid: 357157
+Fri Apr 01 10:59:27 2022: parent pid: 357156
+Fri Apr 01 10:59:27 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: executable: </usr/bin/make>
+Fri Apr 01 10:59:27 2022: argv[0]: <make>
+Fri Apr 01 10:59:27 2022: argv[1]: <debug>
+Fri Apr 01 10:59:27 2022: argv[2]: <-B>
+Fri Apr 01 10:59:27 2022: skipping process with pid: 357157
+Fri Apr 01 10:59:27 2022: process created with pid: 357158
+Fri Apr 01 10:59:27 2022: parent pid: 357157
+Fri Apr 01 10:59:27 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:27 2022: argv[0]: <g++>
+Fri Apr 01 10:59:27 2022: argv[1]: <-c>
+Fri Apr 01 10:59:27 2022: argv[2]: <-s>
+Fri Apr 01 10:59:27 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:27 2022: argv[4]: <address_book.cpp>
+Fri Apr 01 10:59:27 2022: argv[5]: <-o>
+Fri Apr 01 10:59:27 2022: argv[6]: <address_book_debug.o>
+Fri Apr 01 10:59:27 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:27 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:27 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:27 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:27 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:27 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:27 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:27 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:27 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:27 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:27 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:27 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:27 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:27 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:27 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:27 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:27 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:27 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:27 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:27 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:27 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:27 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:27 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:27 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:27 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:27 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:27 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:27 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:27 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:27 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:27 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:27 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:27 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:27 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:27 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:27 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:27 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:27 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:27 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:27 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:27 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:27 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:27 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:27 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:27 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:27 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:27 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:27 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:27 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:27 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:27 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:27 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:27 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:27 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:27 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:27 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:27 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:27 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:27 2022: process created with pid: 357159
+Fri Apr 01 10:59:27 2022: parent pid: 357158
+Fri Apr 01 10:59:27 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:27 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:27 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:27 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:27 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:27 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:27 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:27 2022: argv[5]: <-D>
+Fri Apr 01 10:59:27 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:27 2022: argv[7]: <address_book.cpp>
+Fri Apr 01 10:59:27 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:27 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:27 2022: argv[10]: <address_book.cpp>
+Fri Apr 01 10:59:27 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:27 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:27 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:27 2022: argv[14]: <address_book_debug.o>
+Fri Apr 01 10:59:27 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:27 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:27 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:27 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:27 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:27 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:27 2022: argv[21]: <-o>
+Fri Apr 01 10:59:27 2022: argv[22]: </tmp/ccGs6yAP.s>
+Fri Apr 01 10:59:27 2022: skipping process with pid: 357159
+Fri Apr 01 10:59:28 2022: process created with pid: 357161
+Fri Apr 01 10:59:28 2022: parent pid: 357158
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:28 2022: argv[0]: <as>
+Fri Apr 01 10:59:28 2022: argv[1]: <--64>
+Fri Apr 01 10:59:28 2022: argv[2]: <-o>
+Fri Apr 01 10:59:28 2022: argv[3]: <address_book_debug.o>
+Fri Apr 01 10:59:28 2022: argv[4]: </tmp/ccGs6yAP.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357161
+Fri Apr 01 10:59:28 2022: process created with pid: 357162
+Fri Apr 01 10:59:28 2022: parent pid: 357157
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:28 2022: argv[0]: <g++>
+Fri Apr 01 10:59:28 2022: argv[1]: <-c>
+Fri Apr 01 10:59:28 2022: argv[2]: <-s>
+Fri Apr 01 10:59:28 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:28 2022: argv[4]: <llist.cpp>
+Fri Apr 01 10:59:28 2022: argv[5]: <-o>
+Fri Apr 01 10:59:28 2022: argv[6]: <llist_debug.o>
+Fri Apr 01 10:59:28 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:28 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:28 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:28 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:28 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:28 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:28 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:28 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:28 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:28 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:28 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:28 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:28 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:28 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:28 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:28 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:28 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:28 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:28 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:28 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:28 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:28 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:28 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:28 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:28 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:28 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:28 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:28 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:28 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:28 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:28 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:28 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:28 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:28 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:28 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:28 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:28 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:28 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:28 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:28 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:28 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:28 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:28 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:28 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:28 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:28 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:28 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:28 2022: process created with pid: 357163
+Fri Apr 01 10:59:28 2022: parent pid: 357162
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:28 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:28 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:28 2022: argv[5]: <-D>
+Fri Apr 01 10:59:28 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:28 2022: argv[7]: <llist.cpp>
+Fri Apr 01 10:59:28 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:28 2022: argv[10]: <llist.cpp>
+Fri Apr 01 10:59:28 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:28 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:28 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:28 2022: argv[14]: <llist_debug.o>
+Fri Apr 01 10:59:28 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:28 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:28 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:28 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:28 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:28 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:28 2022: argv[21]: <-o>
+Fri Apr 01 10:59:28 2022: argv[22]: </tmp/ccgIXfq7.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357163
+Fri Apr 01 10:59:28 2022: process created with pid: 357164
+Fri Apr 01 10:59:28 2022: parent pid: 357162
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:28 2022: argv[0]: <as>
+Fri Apr 01 10:59:28 2022: argv[1]: <--64>
+Fri Apr 01 10:59:28 2022: argv[2]: <-o>
+Fri Apr 01 10:59:28 2022: argv[3]: <llist_debug.o>
+Fri Apr 01 10:59:28 2022: argv[4]: </tmp/ccgIXfq7.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357164
+Fri Apr 01 10:59:28 2022: process created with pid: 357165
+Fri Apr 01 10:59:28 2022: parent pid: 357157
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:28 2022: argv[0]: <g++>
+Fri Apr 01 10:59:28 2022: argv[1]: <-c>
+Fri Apr 01 10:59:28 2022: argv[2]: <-s>
+Fri Apr 01 10:59:28 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:28 2022: argv[4]: <address_book_main.cpp>
+Fri Apr 01 10:59:28 2022: argv[5]: <-o>
+Fri Apr 01 10:59:28 2022: argv[6]: <address_book_main_debug.o>
+Fri Apr 01 10:59:28 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:28 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:28 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:28 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:28 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:28 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:28 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:28 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:28 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:28 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:28 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:28 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:28 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:28 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:28 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:28 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:28 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:28 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:28 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:28 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:28 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:28 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:28 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:28 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:28 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:28 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:28 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:28 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:28 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:28 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:28 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:28 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:28 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:28 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:28 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:28 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:28 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:28 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:28 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:28 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:28 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:28 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:28 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:28 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:28 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:28 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:28 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:28 2022: process created with pid: 357166
+Fri Apr 01 10:59:28 2022: parent pid: 357165
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:28 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:28 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:28 2022: argv[5]: <-D>
+Fri Apr 01 10:59:28 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:28 2022: argv[7]: <address_book_main.cpp>
+Fri Apr 01 10:59:28 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:28 2022: argv[10]: <address_book_main.cpp>
+Fri Apr 01 10:59:28 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:28 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:28 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:28 2022: argv[14]: <address_book_main_debug.o>
+Fri Apr 01 10:59:28 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:28 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:28 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:28 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:28 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:28 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:28 2022: argv[21]: <-o>
+Fri Apr 01 10:59:28 2022: argv[22]: </tmp/cc4PdfGl.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357166
+Fri Apr 01 10:59:28 2022: process created with pid: 357167
+Fri Apr 01 10:59:28 2022: parent pid: 357165
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:28 2022: argv[0]: <as>
+Fri Apr 01 10:59:28 2022: argv[1]: <--64>
+Fri Apr 01 10:59:28 2022: argv[2]: <-o>
+Fri Apr 01 10:59:28 2022: argv[3]: <address_book_main_debug.o>
+Fri Apr 01 10:59:28 2022: argv[4]: </tmp/cc4PdfGl.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357167
+Fri Apr 01 10:59:28 2022: process created with pid: 357168
+Fri Apr 01 10:59:28 2022: parent pid: 357157
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:28 2022: argv[0]: <g++>
+Fri Apr 01 10:59:28 2022: argv[1]: <-c>
+Fri Apr 01 10:59:28 2022: argv[2]: <-s>
+Fri Apr 01 10:59:28 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:28 2022: argv[4]: <statictest.cpp>
+Fri Apr 01 10:59:28 2022: argv[5]: <-o>
+Fri Apr 01 10:59:28 2022: argv[6]: <statictest_debug.o>
+Fri Apr 01 10:59:28 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:28 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:28 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:28 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:28 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:28 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:28 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:28 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:28 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:28 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:28 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:28 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:28 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:28 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:28 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:28 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:28 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:28 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:28 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:28 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:28 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:28 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:28 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:28 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:28 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:28 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:28 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:28 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:28 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:28 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:28 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:28 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:28 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:28 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:28 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:28 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:28 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:28 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:28 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:28 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:28 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:28 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:28 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:28 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:28 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:28 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:28 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:28 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:28 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:28 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:28 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:28 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:28 2022: process created with pid: 357169
+Fri Apr 01 10:59:28 2022: parent pid: 357168
+Fri Apr 01 10:59:28 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:28 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:28 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:28 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:28 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:28 2022: argv[5]: <-D>
+Fri Apr 01 10:59:28 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:28 2022: argv[7]: <statictest.cpp>
+Fri Apr 01 10:59:28 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:28 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:28 2022: argv[10]: <statictest.cpp>
+Fri Apr 01 10:59:28 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:28 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:28 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:28 2022: argv[14]: <statictest_debug.o>
+Fri Apr 01 10:59:28 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:28 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:28 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:28 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:28 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:28 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:28 2022: argv[21]: <-o>
+Fri Apr 01 10:59:28 2022: argv[22]: </tmp/cc7smd9x.s>
+Fri Apr 01 10:59:28 2022: skipping process with pid: 357169
+Fri Apr 01 10:59:29 2022: process created with pid: 357170
+Fri Apr 01 10:59:29 2022: parent pid: 357168
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:29 2022: argv[0]: <as>
+Fri Apr 01 10:59:29 2022: argv[1]: <--64>
+Fri Apr 01 10:59:29 2022: argv[2]: <-o>
+Fri Apr 01 10:59:29 2022: argv[3]: <statictest_debug.o>
+Fri Apr 01 10:59:29 2022: argv[4]: </tmp/cc7smd9x.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357170
+Fri Apr 01 10:59:29 2022: process created with pid: 357171
+Fri Apr 01 10:59:29 2022: parent pid: 357157
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:29 2022: argv[0]: <g++>
+Fri Apr 01 10:59:29 2022: argv[1]: <-c>
+Fri Apr 01 10:59:29 2022: argv[2]: <-s>
+Fri Apr 01 10:59:29 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:29 2022: argv[4]: <complexity1.cpp>
+Fri Apr 01 10:59:29 2022: argv[5]: <-o>
+Fri Apr 01 10:59:29 2022: argv[6]: <complexity1_debug.o>
+Fri Apr 01 10:59:29 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:29 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:29 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:29 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:29 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:29 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:29 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:29 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:29 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:29 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:29 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:29 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:29 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:29 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:29 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:29 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:29 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:29 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:29 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:29 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:29 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:29 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:29 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:29 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:29 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:29 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:29 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:29 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:29 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:29 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:29 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:29 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:29 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:29 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:29 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:29 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:29 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:29 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:29 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:29 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:29 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:29 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:29 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:29 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:29 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:29 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:29 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:29 2022: process created with pid: 357172
+Fri Apr 01 10:59:29 2022: parent pid: 357171
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:29 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:29 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:29 2022: argv[5]: <-D>
+Fri Apr 01 10:59:29 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:29 2022: argv[7]: <complexity1.cpp>
+Fri Apr 01 10:59:29 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:29 2022: argv[10]: <complexity1.cpp>
+Fri Apr 01 10:59:29 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:29 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:29 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:29 2022: argv[14]: <complexity1_debug.o>
+Fri Apr 01 10:59:29 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:29 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:29 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:29 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:29 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:29 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:29 2022: argv[21]: <-o>
+Fri Apr 01 10:59:29 2022: argv[22]: </tmp/ccEVytGO.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357172
+Fri Apr 01 10:59:29 2022: process created with pid: 357173
+Fri Apr 01 10:59:29 2022: parent pid: 357171
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:29 2022: argv[0]: <as>
+Fri Apr 01 10:59:29 2022: argv[1]: <--64>
+Fri Apr 01 10:59:29 2022: argv[2]: <-o>
+Fri Apr 01 10:59:29 2022: argv[3]: <complexity1_debug.o>
+Fri Apr 01 10:59:29 2022: argv[4]: </tmp/ccEVytGO.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357173
+Fri Apr 01 10:59:29 2022: process created with pid: 357174
+Fri Apr 01 10:59:29 2022: parent pid: 357157
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:29 2022: argv[0]: <g++>
+Fri Apr 01 10:59:29 2022: argv[1]: <-c>
+Fri Apr 01 10:59:29 2022: argv[2]: <-s>
+Fri Apr 01 10:59:29 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:29 2022: argv[4]: <complexity2.cpp>
+Fri Apr 01 10:59:29 2022: argv[5]: <-o>
+Fri Apr 01 10:59:29 2022: argv[6]: <complexity2_debug.o>
+Fri Apr 01 10:59:29 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:29 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:29 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:29 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:29 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:29 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:29 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:29 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:29 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:29 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:29 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:29 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:29 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:29 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:29 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:29 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:29 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:29 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:29 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:29 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:29 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:29 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:29 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:29 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:29 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:29 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:29 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:29 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:29 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:29 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:29 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:29 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:29 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:29 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:29 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:29 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:29 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:29 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:29 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:29 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:29 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:29 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:29 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:29 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:29 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:29 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:29 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:29 2022: process created with pid: 357175
+Fri Apr 01 10:59:29 2022: parent pid: 357174
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:29 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:29 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:29 2022: argv[5]: <-D>
+Fri Apr 01 10:59:29 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:29 2022: argv[7]: <complexity2.cpp>
+Fri Apr 01 10:59:29 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:29 2022: argv[10]: <complexity2.cpp>
+Fri Apr 01 10:59:29 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:29 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:29 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:29 2022: argv[14]: <complexity2_debug.o>
+Fri Apr 01 10:59:29 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:29 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:29 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:29 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:29 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:29 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:29 2022: argv[21]: <-o>
+Fri Apr 01 10:59:29 2022: argv[22]: </tmp/ccRdB620.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357175
+Fri Apr 01 10:59:29 2022: process created with pid: 357176
+Fri Apr 01 10:59:29 2022: parent pid: 357174
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:29 2022: argv[0]: <as>
+Fri Apr 01 10:59:29 2022: argv[1]: <--64>
+Fri Apr 01 10:59:29 2022: argv[2]: <-o>
+Fri Apr 01 10:59:29 2022: argv[3]: <complexity2_debug.o>
+Fri Apr 01 10:59:29 2022: argv[4]: </tmp/ccRdB620.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357176
+Fri Apr 01 10:59:29 2022: process created with pid: 357177
+Fri Apr 01 10:59:29 2022: parent pid: 357157
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:29 2022: argv[0]: <g++>
+Fri Apr 01 10:59:29 2022: argv[1]: <-c>
+Fri Apr 01 10:59:29 2022: argv[2]: <-s>
+Fri Apr 01 10:59:29 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:29 2022: argv[4]: <complexity3.cpp>
+Fri Apr 01 10:59:29 2022: argv[5]: <-o>
+Fri Apr 01 10:59:29 2022: argv[6]: <complexity3_debug.o>
+Fri Apr 01 10:59:29 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:29 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:29 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:29 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:29 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:29 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:29 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:29 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:29 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:29 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:29 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:29 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:29 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:29 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:29 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:29 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:29 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:29 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:29 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:29 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:29 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:29 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:29 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:29 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:29 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:29 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:29 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:29 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:29 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:29 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:29 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:29 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:29 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:29 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:29 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:29 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:29 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:29 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:29 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:29 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:29 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:29 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:29 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:29 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:29 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:29 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:29 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:29 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:29 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:29 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:29 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:29 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:29 2022: process created with pid: 357178
+Fri Apr 01 10:59:29 2022: parent pid: 357177
+Fri Apr 01 10:59:29 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:29 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:29 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:29 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:29 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:29 2022: argv[5]: <-D>
+Fri Apr 01 10:59:29 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:29 2022: argv[7]: <complexity3.cpp>
+Fri Apr 01 10:59:29 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:29 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:29 2022: argv[10]: <complexity3.cpp>
+Fri Apr 01 10:59:29 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:29 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:29 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:29 2022: argv[14]: <complexity3_debug.o>
+Fri Apr 01 10:59:29 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:29 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:29 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:29 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:29 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:29 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:29 2022: argv[21]: <-o>
+Fri Apr 01 10:59:29 2022: argv[22]: </tmp/ccMFXOie.s>
+Fri Apr 01 10:59:29 2022: skipping process with pid: 357178
+Fri Apr 01 10:59:30 2022: process created with pid: 357179
+Fri Apr 01 10:59:30 2022: parent pid: 357177
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:30 2022: argv[0]: <as>
+Fri Apr 01 10:59:30 2022: argv[1]: <--64>
+Fri Apr 01 10:59:30 2022: argv[2]: <-o>
+Fri Apr 01 10:59:30 2022: argv[3]: <complexity3_debug.o>
+Fri Apr 01 10:59:30 2022: argv[4]: </tmp/ccMFXOie.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357179
+Fri Apr 01 10:59:30 2022: process created with pid: 357180
+Fri Apr 01 10:59:30 2022: parent pid: 357157
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:30 2022: argv[0]: <g++>
+Fri Apr 01 10:59:30 2022: argv[1]: <-c>
+Fri Apr 01 10:59:30 2022: argv[2]: <-s>
+Fri Apr 01 10:59:30 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:30 2022: argv[4]: <complexity4.cpp>
+Fri Apr 01 10:59:30 2022: argv[5]: <-o>
+Fri Apr 01 10:59:30 2022: argv[6]: <complexity4_debug.o>
+Fri Apr 01 10:59:30 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:30 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:30 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:30 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:30 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:30 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:30 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:30 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:30 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:30 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:30 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:30 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:30 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:30 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:30 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:30 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:30 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:30 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:30 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:30 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:30 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:30 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:30 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:30 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:30 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:30 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:30 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:30 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:30 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:30 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:30 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:30 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:30 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:30 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:30 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:30 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:30 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:30 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:30 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:30 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:30 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:30 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:30 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:30 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:30 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:30 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:30 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:30 2022: process created with pid: 357181
+Fri Apr 01 10:59:30 2022: parent pid: 357180
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:30 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:30 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:30 2022: argv[5]: <-D>
+Fri Apr 01 10:59:30 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:30 2022: argv[7]: <complexity4.cpp>
+Fri Apr 01 10:59:30 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:30 2022: argv[10]: <complexity4.cpp>
+Fri Apr 01 10:59:30 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:30 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:30 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:30 2022: argv[14]: <complexity4_debug.o>
+Fri Apr 01 10:59:30 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:30 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:30 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:30 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:30 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:30 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:30 2022: argv[21]: <-o>
+Fri Apr 01 10:59:30 2022: argv[22]: </tmp/ccdClP5t.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357181
+Fri Apr 01 10:59:30 2022: process created with pid: 357182
+Fri Apr 01 10:59:30 2022: parent pid: 357180
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:30 2022: argv[0]: <as>
+Fri Apr 01 10:59:30 2022: argv[1]: <--64>
+Fri Apr 01 10:59:30 2022: argv[2]: <-o>
+Fri Apr 01 10:59:30 2022: argv[3]: <complexity4_debug.o>
+Fri Apr 01 10:59:30 2022: argv[4]: </tmp/ccdClP5t.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357182
+Fri Apr 01 10:59:30 2022: process created with pid: 357183
+Fri Apr 01 10:59:30 2022: parent pid: 357157
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:30 2022: argv[0]: <g++>
+Fri Apr 01 10:59:30 2022: argv[1]: <-c>
+Fri Apr 01 10:59:30 2022: argv[2]: <-s>
+Fri Apr 01 10:59:30 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:30 2022: argv[4]: <complexity5.cpp>
+Fri Apr 01 10:59:30 2022: argv[5]: <-o>
+Fri Apr 01 10:59:30 2022: argv[6]: <complexity5_debug.o>
+Fri Apr 01 10:59:30 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:30 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:30 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:30 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:30 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:30 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:30 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:30 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:30 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:30 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:30 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:30 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:30 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:30 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:30 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:30 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:30 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:30 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:30 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:30 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:30 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:30 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:30 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:30 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:30 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:30 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:30 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:30 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:30 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:30 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:30 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:30 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:30 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:30 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:30 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:30 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:30 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:30 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:30 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:30 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:30 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:30 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:30 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:30 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:30 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:30 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:30 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:30 2022: process created with pid: 357184
+Fri Apr 01 10:59:30 2022: parent pid: 357183
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:30 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:30 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:30 2022: argv[5]: <-D>
+Fri Apr 01 10:59:30 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:30 2022: argv[7]: <complexity5.cpp>
+Fri Apr 01 10:59:30 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:30 2022: argv[10]: <complexity5.cpp>
+Fri Apr 01 10:59:30 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:30 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:30 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:30 2022: argv[14]: <complexity5_debug.o>
+Fri Apr 01 10:59:30 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:30 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:30 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:30 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:30 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:30 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:30 2022: argv[21]: <-o>
+Fri Apr 01 10:59:30 2022: argv[22]: </tmp/ccwzElaH.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357184
+Fri Apr 01 10:59:30 2022: process created with pid: 357185
+Fri Apr 01 10:59:30 2022: parent pid: 357183
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:30 2022: argv[0]: <as>
+Fri Apr 01 10:59:30 2022: argv[1]: <--64>
+Fri Apr 01 10:59:30 2022: argv[2]: <-o>
+Fri Apr 01 10:59:30 2022: argv[3]: <complexity5_debug.o>
+Fri Apr 01 10:59:30 2022: argv[4]: </tmp/ccwzElaH.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357185
+Fri Apr 01 10:59:30 2022: process created with pid: 357186
+Fri Apr 01 10:59:30 2022: parent pid: 357157
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:30 2022: argv[0]: <g++>
+Fri Apr 01 10:59:30 2022: argv[1]: <-c>
+Fri Apr 01 10:59:30 2022: argv[2]: <-s>
+Fri Apr 01 10:59:30 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:30 2022: argv[4]: <complexity6.cpp>
+Fri Apr 01 10:59:30 2022: argv[5]: <-o>
+Fri Apr 01 10:59:30 2022: argv[6]: <complexity6_debug.o>
+Fri Apr 01 10:59:30 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:30 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:30 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:30 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:30 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:30 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:30 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:30 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:30 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:30 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:30 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:30 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:30 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:30 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:30 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:30 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:30 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:30 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:30 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:30 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:30 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:30 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:30 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:30 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:30 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:30 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:30 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:30 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:30 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:30 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:30 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:30 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:30 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:30 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:30 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:30 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:30 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:30 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:30 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:30 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:30 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:30 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:30 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:30 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:30 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:30 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:30 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:30 2022: process created with pid: 357187
+Fri Apr 01 10:59:30 2022: parent pid: 357186
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:30 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:30 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:30 2022: argv[5]: <-D>
+Fri Apr 01 10:59:30 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:30 2022: argv[7]: <complexity6.cpp>
+Fri Apr 01 10:59:30 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:30 2022: argv[10]: <complexity6.cpp>
+Fri Apr 01 10:59:30 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:30 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:30 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:30 2022: argv[14]: <complexity6_debug.o>
+Fri Apr 01 10:59:30 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:30 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:30 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:30 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:30 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:30 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:30 2022: argv[21]: <-o>
+Fri Apr 01 10:59:30 2022: argv[22]: </tmp/ccP2KaRT.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357187
+Fri Apr 01 10:59:30 2022: process created with pid: 357189
+Fri Apr 01 10:59:30 2022: parent pid: 357186
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:30 2022: argv[0]: <as>
+Fri Apr 01 10:59:30 2022: argv[1]: <--64>
+Fri Apr 01 10:59:30 2022: argv[2]: <-o>
+Fri Apr 01 10:59:30 2022: argv[3]: <complexity6_debug.o>
+Fri Apr 01 10:59:30 2022: argv[4]: </tmp/ccP2KaRT.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357189
+Fri Apr 01 10:59:30 2022: process created with pid: 357190
+Fri Apr 01 10:59:30 2022: parent pid: 357157
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:30 2022: argv[0]: <g++>
+Fri Apr 01 10:59:30 2022: argv[1]: <-c>
+Fri Apr 01 10:59:30 2022: argv[2]: <-s>
+Fri Apr 01 10:59:30 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:30 2022: argv[4]: <complexity7.cpp>
+Fri Apr 01 10:59:30 2022: argv[5]: <-o>
+Fri Apr 01 10:59:30 2022: argv[6]: <complexity7_debug.o>
+Fri Apr 01 10:59:30 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:30 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:30 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:30 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:30 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:30 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:30 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:30 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:30 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:30 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:30 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:30 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:30 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:30 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:30 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:30 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:30 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:30 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:30 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:30 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:30 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:30 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:30 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:30 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:30 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:30 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:30 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:30 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:30 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:30 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:30 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:30 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:30 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:30 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:30 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:30 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:30 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:30 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:30 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:30 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:30 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:30 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:30 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:30 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:30 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:30 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:30 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:30 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:30 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:30 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:30 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:30 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:30 2022: process created with pid: 357191
+Fri Apr 01 10:59:30 2022: parent pid: 357190
+Fri Apr 01 10:59:30 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:30 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:30 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:30 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:30 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:30 2022: argv[5]: <-D>
+Fri Apr 01 10:59:30 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:30 2022: argv[7]: <complexity7.cpp>
+Fri Apr 01 10:59:30 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:30 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:30 2022: argv[10]: <complexity7.cpp>
+Fri Apr 01 10:59:30 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:30 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:30 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:30 2022: argv[14]: <complexity7_debug.o>
+Fri Apr 01 10:59:30 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:30 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:30 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:30 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:30 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:30 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:30 2022: argv[21]: <-o>
+Fri Apr 01 10:59:30 2022: argv[22]: </tmp/cczJofaf.s>
+Fri Apr 01 10:59:30 2022: skipping process with pid: 357191
+Fri Apr 01 10:59:31 2022: process created with pid: 357192
+Fri Apr 01 10:59:31 2022: parent pid: 357190
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:31 2022: argv[0]: <as>
+Fri Apr 01 10:59:31 2022: argv[1]: <--64>
+Fri Apr 01 10:59:31 2022: argv[2]: <-o>
+Fri Apr 01 10:59:31 2022: argv[3]: <complexity7_debug.o>
+Fri Apr 01 10:59:31 2022: argv[4]: </tmp/cczJofaf.s>
+Fri Apr 01 10:59:31 2022: skipping process with pid: 357192
+Fri Apr 01 10:59:31 2022: process created with pid: 357193
+Fri Apr 01 10:59:31 2022: parent pid: 357157
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:31 2022: argv[0]: <g++>
+Fri Apr 01 10:59:31 2022: argv[1]: <-c>
+Fri Apr 01 10:59:31 2022: argv[2]: <-s>
+Fri Apr 01 10:59:31 2022: argv[3]: <-DDEBUG>
+Fri Apr 01 10:59:31 2022: argv[4]: <complexity8.cpp>
+Fri Apr 01 10:59:31 2022: argv[5]: <-o>
+Fri Apr 01 10:59:31 2022: argv[6]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:31 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:31 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:31 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:31 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:31 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:31 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:31 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:31 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:31 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:31 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:31 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:31 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:31 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:31 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:31 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:31 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:31 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:31 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:31 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:31 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:31 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:31 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:31 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:31 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:31 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:31 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:31 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:31 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:31 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:31 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:31 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:31 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:31 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:31 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:31 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:31 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:31 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:31 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:31 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:31 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:31 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:31 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:31 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:31 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:31 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:31 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:31 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:31 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:31 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:31 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:31 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:31 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:31 2022: process created with pid: 357194
+Fri Apr 01 10:59:31 2022: parent pid: 357193
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:31 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/cc1plus>
+Fri Apr 01 10:59:31 2022: argv[1]: <-quiet>
+Fri Apr 01 10:59:31 2022: argv[2]: <-imultiarch>
+Fri Apr 01 10:59:31 2022: argv[3]: <x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[4]: <-D_GNU_SOURCE>
+Fri Apr 01 10:59:31 2022: argv[5]: <-D>
+Fri Apr 01 10:59:31 2022: argv[6]: <DEBUG>
+Fri Apr 01 10:59:31 2022: argv[7]: <complexity8.cpp>
+Fri Apr 01 10:59:31 2022: argv[8]: <-quiet>
+Fri Apr 01 10:59:31 2022: argv[9]: <-dumpbase>
+Fri Apr 01 10:59:31 2022: argv[10]: <complexity8.cpp>
+Fri Apr 01 10:59:31 2022: argv[11]: <-mtune=generic>
+Fri Apr 01 10:59:31 2022: argv[12]: <-march=x86-64>
+Fri Apr 01 10:59:31 2022: argv[13]: <-auxbase-strip>
+Fri Apr 01 10:59:31 2022: argv[14]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: argv[15]: <-fasynchronous-unwind-tables>
+Fri Apr 01 10:59:31 2022: argv[16]: <-fstack-protector-strong>
+Fri Apr 01 10:59:31 2022: argv[17]: <-Wformat>
+Fri Apr 01 10:59:31 2022: argv[18]: <-Wformat-security>
+Fri Apr 01 10:59:31 2022: argv[19]: <-fstack-clash-protection>
+Fri Apr 01 10:59:31 2022: argv[20]: <-fcf-protection>
+Fri Apr 01 10:59:31 2022: argv[21]: <-o>
+Fri Apr 01 10:59:31 2022: argv[22]: </tmp/ccRoycMq.s>
+Fri Apr 01 10:59:31 2022: skipping process with pid: 357194
+Fri Apr 01 10:59:31 2022: process created with pid: 357195
+Fri Apr 01 10:59:31 2022: parent pid: 357193
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/bin/x86_64-linux-gnu-as>
+Fri Apr 01 10:59:31 2022: argv[0]: <as>
+Fri Apr 01 10:59:31 2022: argv[1]: <--64>
+Fri Apr 01 10:59:31 2022: argv[2]: <-o>
+Fri Apr 01 10:59:31 2022: argv[3]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: argv[4]: </tmp/ccRoycMq.s>
+Fri Apr 01 10:59:31 2022: skipping process with pid: 357195
+Fri Apr 01 10:59:31 2022: process created with pid: 357196
+Fri Apr 01 10:59:31 2022: parent pid: 357157
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/bin/x86_64-linux-gnu-g++-9>
+Fri Apr 01 10:59:31 2022: argv[0]: <g++>
+Fri Apr 01 10:59:31 2022: argv[1]: <address_book_debug.o>
+Fri Apr 01 10:59:31 2022: argv[2]: <llist_debug.o>
+Fri Apr 01 10:59:31 2022: argv[3]: <address_book_main_debug.o>
+Fri Apr 01 10:59:31 2022: argv[4]: <statictest_debug.o>
+Fri Apr 01 10:59:31 2022: argv[5]: <complexity1_debug.o>
+Fri Apr 01 10:59:31 2022: argv[6]: <complexity2_debug.o>
+Fri Apr 01 10:59:31 2022: argv[7]: <complexity3_debug.o>
+Fri Apr 01 10:59:31 2022: argv[8]: <complexity4_debug.o>
+Fri Apr 01 10:59:31 2022: argv[9]: <complexity5_debug.o>
+Fri Apr 01 10:59:31 2022: argv[10]: <complexity6_debug.o>
+Fri Apr 01 10:59:31 2022: argv[11]: <complexity7_debug.o>
+Fri Apr 01 10:59:31 2022: argv[12]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: argv[13]: <-o>
+Fri Apr 01 10:59:31 2022: argv[14]: <cpp_address_book_debug>
+Fri Apr 01 10:59:31 2022: envp[0]: <SQ_WRAPPER_SOCKET=/tmp/build-wrapper-socket.83fnly>
+Fri Apr 01 10:59:31 2022: envp[1]: <SQ_WRAPPER_LIBRARY=/home/jkammath/Documents/build-wrapper/libinterceptor-${PLATFORM}.so>
+Fri Apr 01 10:59:31 2022: envp[2]: <DESKTOP_SESSION=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[3]: <XDG_SESSION_CLASS=user>
+Fri Apr 01 10:59:31 2022: envp[4]: <XDG_SESSION_TYPE=x11>
+Fri Apr 01 10:59:31 2022: envp[5]: <XAUTHORITY=/run/user/1001/gdm/Xauthority>
+Fri Apr 01 10:59:31 2022: envp[6]: <GDMSESSION=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[7]: <XMODIFIERS=@im=ibus>
+Fri Apr 01 10:59:31 2022: envp[8]: <SHELL=/bin/bash>
+Fri Apr 01 10:59:31 2022: envp[9]: <VTE_VERSION=6003>
+Fri Apr 01 10:59:31 2022: envp[10]: <JOURNAL_STREAM=8:3993388>
+Fri Apr 01 10:59:31 2022: envp[11]: <XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg>
+Fri Apr 01 10:59:31 2022: envp[12]: <IM_CONFIG_PHASE=1>
+Fri Apr 01 10:59:31 2022: envp[13]: <USERNAME=jkammath>
+Fri Apr 01 10:59:31 2022: envp[14]: <XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop>
+Fri Apr 01 10:59:31 2022: envp[15]: <_=/home/jkammath/Documents/build-wrapper/build-wrapper-linux-x86-64>
+Fri Apr 01 10:59:31 2022: envp[16]: <MANAGERPID=217935>
+Fri Apr 01 10:59:31 2022: envp[17]: <CLUTTER_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[18]: <LESSOPEN=| /usr/bin/lesspipe %s>
+Fri Apr 01 10:59:31 2022: envp[19]: <PATH=/home/jkammath/Documents/build-wrapper:/home/jkammath/Documents/sonarscanner/bin:/home/jkammath/Documents/oclint/bin:/home/jkammath/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin>
+Fri Apr 01 10:59:31 2022: envp[20]: <GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1>
+Fri Apr 01 10:59:31 2022: envp[21]: <SESSION_MANAGER=local/8KY6DK2:@/tmp/.ICE-unix/218225,unix/8KY6DK2:/tmp/.ICE-unix/218225>
+Fri Apr 01 10:59:31 2022: envp[22]: <XDG_RUNTIME_DIR=/run/user/1001>
+Fri Apr 01 10:59:31 2022: envp[23]: <XDG_MENU_PREFIX=gnome->
+Fri Apr 01 10:59:31 2022: envp[24]: <INVOCATION_ID=50560c8d2a99430da47ae55855d39694>
+Fri Apr 01 10:59:31 2022: envp[25]: <LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:>
+Fri Apr 01 10:59:31 2022: envp[26]: <XDG_SESSION_DESKTOP=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[27]: <SSH_AUTH_SOCK=/run/user/1001/keyring/ssh>
+Fri Apr 01 10:59:31 2022: envp[28]: <DISPLAY=:0>
+Fri Apr 01 10:59:31 2022: envp[29]: <GTK_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[30]: <HOME=/home/jkammath>
+Fri Apr 01 10:59:31 2022: envp[31]: <PWD=/home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: envp[32]: <SSH_AGENT_PID=218112>
+Fri Apr 01 10:59:31 2022: envp[33]: <GTK_MODULES=gail:atk-bridge>
+Fri Apr 01 10:59:31 2022: envp[34]: <DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:31 2022: envp[35]: <INSIDE_NAUTILUS_PYTHON=>
+Fri Apr 01 10:59:31 2022: envp[36]: <LESSCLOSE=/usr/bin/lesspipe %s %s>
+Fri Apr 01 10:59:31 2022: envp[37]: <LOGNAME=jkammath>
+Fri Apr 01 10:59:31 2022: envp[38]: <GNOME_DESKTOP_SESSION_ID=this-is-deprecated>
+Fri Apr 01 10:59:31 2022: envp[39]: <COLORTERM=truecolor>
+Fri Apr 01 10:59:31 2022: envp[40]: <QT_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[41]: <SHLVL=1>
+Fri Apr 01 10:59:31 2022: envp[42]: <GNOME_SHELL_SESSION_MODE=ubuntu>
+Fri Apr 01 10:59:31 2022: envp[43]: <USER=jkammath>
+Fri Apr 01 10:59:31 2022: envp[44]: <XDG_CURRENT_DESKTOP=ubuntu:GNOME>
+Fri Apr 01 10:59:31 2022: envp[45]: <LANGUAGE=en_US:en>
+Fri Apr 01 10:59:31 2022: envp[46]: <MAKEFLAGS=B>
+Fri Apr 01 10:59:31 2022: envp[47]: <MFLAGS=-B>
+Fri Apr 01 10:59:31 2022: envp[48]: <P4CONFIG=.p4config>
+Fri Apr 01 10:59:31 2022: envp[49]: <MAKE_TERMOUT=/dev/pts/1>
+Fri Apr 01 10:59:31 2022: envp[50]: <QT_ACCESSIBILITY=1>
+Fri Apr 01 10:59:31 2022: envp[51]: <DBUS_STARTER_BUS_TYPE=session>
+Fri Apr 01 10:59:31 2022: envp[52]: <QT4_IM_MODULE=ibus>
+Fri Apr 01 10:59:31 2022: envp[53]: <GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/ab7f1362_be73_4865_a187_6be439de30ba>
+Fri Apr 01 10:59:31 2022: envp[54]: <GNOME_TERMINAL_SERVICE=:1.121>
+Fri Apr 01 10:59:31 2022: envp[55]: <WINDOWPATH=2>
+Fri Apr 01 10:59:31 2022: envp[56]: <MAKE_TERMERR=/dev/pts/1>
+Fri Apr 01 10:59:31 2022: envp[57]: <LANG=en_US.UTF-8>
+Fri Apr 01 10:59:31 2022: envp[58]: <TERM=xterm-256color>
+Fri Apr 01 10:59:31 2022: envp[59]: <DBUS_STARTER_ADDRESS=unix:path=/run/user/1001/bus,guid=ccda33366f9a6db1c71205586241bd70>
+Fri Apr 01 10:59:31 2022: envp[60]: <MAKELEVEL=1>
+Fri Apr 01 10:59:31 2022: envp[61]: <LD_PRELOAD=>
+Fri Apr 01 10:59:31 2022: process created with pid: 357197
+Fri Apr 01 10:59:31 2022: parent pid: 357196
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Fri Apr 01 10:59:31 2022: argv[0]: </usr/lib/gcc/x86_64-linux-gnu/9/collect2>
+Fri Apr 01 10:59:31 2022: argv[1]: <-plugin>
+Fri Apr 01 10:59:31 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Fri Apr 01 10:59:31 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Fri Apr 01 10:59:31 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccaVfmrF.res>
+Fri Apr 01 10:59:31 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Fri Apr 01 10:59:31 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
+Fri Apr 01 10:59:31 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Fri Apr 01 10:59:31 2022: argv[10]: <--build-id>
+Fri Apr 01 10:59:31 2022: argv[11]: <--eh-frame-hdr>
+Fri Apr 01 10:59:31 2022: argv[12]: <-m>
+Fri Apr 01 10:59:31 2022: argv[13]: <elf_x86_64>
+Fri Apr 01 10:59:31 2022: argv[14]: <--hash-style=gnu>
+Fri Apr 01 10:59:31 2022: argv[15]: <--as-needed>
+Fri Apr 01 10:59:31 2022: argv[16]: <-dynamic-linker>
+Fri Apr 01 10:59:31 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Fri Apr 01 10:59:31 2022: argv[18]: <-pie>
+Fri Apr 01 10:59:31 2022: argv[19]: <-z>
+Fri Apr 01 10:59:31 2022: argv[20]: <now>
+Fri Apr 01 10:59:31 2022: argv[21]: <-z>
+Fri Apr 01 10:59:31 2022: argv[22]: <relro>
+Fri Apr 01 10:59:31 2022: argv[23]: <-o>
+Fri Apr 01 10:59:31 2022: argv[24]: <cpp_address_book_debug>
+Fri Apr 01 10:59:31 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Fri Apr 01 10:59:31 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Fri Apr 01 10:59:31 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Fri Apr 01 10:59:31 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Fri Apr 01 10:59:31 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Fri Apr 01 10:59:31 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[32]: <-L/lib/../lib>
+Fri Apr 01 10:59:31 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[34]: <-L/usr/lib/../lib>
+Fri Apr 01 10:59:31 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Fri Apr 01 10:59:31 2022: argv[36]: <address_book_debug.o>
+Fri Apr 01 10:59:31 2022: argv[37]: <llist_debug.o>
+Fri Apr 01 10:59:31 2022: argv[38]: <address_book_main_debug.o>
+Fri Apr 01 10:59:31 2022: argv[39]: <statictest_debug.o>
+Fri Apr 01 10:59:31 2022: argv[40]: <complexity1_debug.o>
+Fri Apr 01 10:59:31 2022: argv[41]: <complexity2_debug.o>
+Fri Apr 01 10:59:31 2022: argv[42]: <complexity3_debug.o>
+Fri Apr 01 10:59:31 2022: argv[43]: <complexity4_debug.o>
+Fri Apr 01 10:59:31 2022: argv[44]: <complexity5_debug.o>
+Fri Apr 01 10:59:31 2022: argv[45]: <complexity6_debug.o>
+Fri Apr 01 10:59:31 2022: argv[46]: <complexity7_debug.o>
+Fri Apr 01 10:59:31 2022: argv[47]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: argv[48]: <-lstdc++>
+Fri Apr 01 10:59:31 2022: argv[49]: <-lm>
+Fri Apr 01 10:59:31 2022: argv[50]: <-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[51]: <-lgcc>
+Fri Apr 01 10:59:31 2022: argv[52]: <-lc>
+Fri Apr 01 10:59:31 2022: argv[53]: <-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[54]: <-lgcc>
+Fri Apr 01 10:59:31 2022: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Fri Apr 01 10:59:31 2022: argv[56]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Fri Apr 01 10:59:31 2022: skipping process with pid: 357197
+Fri Apr 01 10:59:31 2022: process created with pid: 357198
+Fri Apr 01 10:59:31 2022: parent pid: 357197
+Fri Apr 01 10:59:31 2022: working directory: </home/jkammath/Desktop/Abook>
+Fri Apr 01 10:59:31 2022: executable: </usr/bin/x86_64-linux-gnu-ld.bfd>
+Fri Apr 01 10:59:31 2022: argv[0]: </usr/bin/ld>
+Fri Apr 01 10:59:31 2022: argv[1]: <-plugin>
+Fri Apr 01 10:59:31 2022: argv[2]: </usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so>
+Fri Apr 01 10:59:31 2022: argv[3]: <-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper>
+Fri Apr 01 10:59:31 2022: argv[4]: <-plugin-opt=-fresolution=/tmp/ccaVfmrF.res>
+Fri Apr 01 10:59:31 2022: argv[5]: <-plugin-opt=-pass-through=-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[6]: <-plugin-opt=-pass-through=-lgcc>
+Fri Apr 01 10:59:31 2022: argv[7]: <-plugin-opt=-pass-through=-lc>
+Fri Apr 01 10:59:31 2022: argv[8]: <-plugin-opt=-pass-through=-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[9]: <-plugin-opt=-pass-through=-lgcc>
+Fri Apr 01 10:59:31 2022: argv[10]: <--build-id>
+Fri Apr 01 10:59:31 2022: argv[11]: <--eh-frame-hdr>
+Fri Apr 01 10:59:31 2022: argv[12]: <-m>
+Fri Apr 01 10:59:31 2022: argv[13]: <elf_x86_64>
+Fri Apr 01 10:59:31 2022: argv[14]: <--hash-style=gnu>
+Fri Apr 01 10:59:31 2022: argv[15]: <--as-needed>
+Fri Apr 01 10:59:31 2022: argv[16]: <-dynamic-linker>
+Fri Apr 01 10:59:31 2022: argv[17]: </lib64/ld-linux-x86-64.so.2>
+Fri Apr 01 10:59:31 2022: argv[18]: <-pie>
+Fri Apr 01 10:59:31 2022: argv[19]: <-z>
+Fri Apr 01 10:59:31 2022: argv[20]: <now>
+Fri Apr 01 10:59:31 2022: argv[21]: <-z>
+Fri Apr 01 10:59:31 2022: argv[22]: <relro>
+Fri Apr 01 10:59:31 2022: argv[23]: <-o>
+Fri Apr 01 10:59:31 2022: argv[24]: <cpp_address_book_debug>
+Fri Apr 01 10:59:31 2022: argv[25]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o>
+Fri Apr 01 10:59:31 2022: argv[26]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o>
+Fri Apr 01 10:59:31 2022: argv[27]: </usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o>
+Fri Apr 01 10:59:31 2022: argv[28]: <-L/usr/lib/gcc/x86_64-linux-gnu/9>
+Fri Apr 01 10:59:31 2022: argv[29]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[30]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib>
+Fri Apr 01 10:59:31 2022: argv[31]: <-L/lib/x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[32]: <-L/lib/../lib>
+Fri Apr 01 10:59:31 2022: argv[33]: <-L/usr/lib/x86_64-linux-gnu>
+Fri Apr 01 10:59:31 2022: argv[34]: <-L/usr/lib/../lib>
+Fri Apr 01 10:59:31 2022: argv[35]: <-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..>
+Fri Apr 01 10:59:31 2022: argv[36]: <address_book_debug.o>
+Fri Apr 01 10:59:31 2022: argv[37]: <llist_debug.o>
+Fri Apr 01 10:59:31 2022: argv[38]: <address_book_main_debug.o>
+Fri Apr 01 10:59:31 2022: argv[39]: <statictest_debug.o>
+Fri Apr 01 10:59:31 2022: argv[40]: <complexity1_debug.o>
+Fri Apr 01 10:59:31 2022: argv[41]: <complexity2_debug.o>
+Fri Apr 01 10:59:31 2022: argv[42]: <complexity3_debug.o>
+Fri Apr 01 10:59:31 2022: argv[43]: <complexity4_debug.o>
+Fri Apr 01 10:59:31 2022: argv[44]: <complexity5_debug.o>
+Fri Apr 01 10:59:31 2022: argv[45]: <complexity6_debug.o>
+Fri Apr 01 10:59:31 2022: argv[46]: <complexity7_debug.o>
+Fri Apr 01 10:59:31 2022: argv[47]: <complexity8_debug.o>
+Fri Apr 01 10:59:31 2022: argv[48]: <-lstdc++>
+Fri Apr 01 10:59:31 2022: argv[49]: <-lm>
+Fri Apr 01 10:59:31 2022: argv[50]: <-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[51]: <-lgcc>
+Fri Apr 01 10:59:31 2022: argv[52]: <-lc>
+Fri Apr 01 10:59:31 2022: argv[53]: <-lgcc_s>
+Fri Apr 01 10:59:31 2022: argv[54]: <-lgcc>
+Fri Apr 01 10:59:31 2022: argv[55]: </usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o>
+Fri Apr 01 10:59:31 2022: argv[56]: </usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o>
+Fri Apr 01 10:59:31 2022: skipping process with pid: 357198
+Fri Apr 01 10:59:31 2022: finalizing json file
+Fri Apr 01 10:59:31 2022: returned with code: 0

@@ -1,0 +1,46 @@
+QT FOR =  89_Adeno_E3_CR1 0.0062 seconds
+RAPIDNJ FOR =  89_Adeno_E3_CR1 0.0082 seconds
+QT FOR =  1849_FG-GAP 4.3719 seconds
+RAPIDNJ FOR =  1849_FG-GAP 0.7282 seconds
+QT FOR =  494_Astro_capsid 0.0825 seconds
+RAPIDNJ FOR =  494_Astro_capsid 0.0527 seconds
+QT FOR =  1689_FGGY_N 2.9487 seconds
+RAPIDNJ FOR =  1689_FGGY_N 0.6124 seconds
+QT FOR =  401_DDE 0.0601 seconds
+RAPIDNJ FOR =  401_DDE 0.0388 seconds
+QT FOR =  1756_FAD_binding_3 3.3387 seconds
+RAPIDNJ FOR =  1756_FAD_binding_3 0.6919 seconds
+QT FOR =  877_Glu_synthase 0.3888 seconds
+RAPIDNJ FOR =  877_Glu_synthase 0.1563 seconds
+QT FOR =  608_Gemini_AL2 0.2002 seconds
+RAPIDNJ FOR =  608_Gemini_AL2 0.0892 seconds
+QT FOR =  214_Arena_glycoprot 0.0143 seconds
+RAPIDNJ FOR =  214_Arena_glycoprot 0.0171 seconds
+QT FOR =  1347_FAINT 2.0141 seconds
+RAPIDNJ FOR =  1347_FAINT 0.4618 seconds
+QT FOR =  1560_Ferritin 2.5718 seconds
+RAPIDNJ FOR =  1560_Ferritin 0.4811 seconds
+QT FOR =  777_Gemini_V1 0.2552 seconds
+RAPIDNJ FOR =  777_Gemini_V1 0.1054 seconds
+QT FOR =  304_A1_Propeptide 0.0402 seconds
+RAPIDNJ FOR =  304_A1_Propeptide 0.0264 seconds
+QT FOR =  1493_Fe-ADH 2.2068 seconds
+RAPIDNJ FOR =  1493_Fe-ADH 0.4888 seconds
+
+
+
+
+NJ FOR =  89_Adeno_E3_CR1 0.2953 seconds
+NJ FOR =  1849_FG-GAP 2442.0615 seconds
+NJ FOR =  494_Astro_capsid 45.7368 seconds
+NJ FOR =  1689_FGGY_N 1907.6267 seconds
+NJ FOR =  401_DDE 25.7862 seconds
+NJ FOR =  1756_FAD_binding_3 2222.5293 seconds
+NJ FOR =  877_Glu_synthase 282.2568 seconds
+NJ FOR =  608_Gemini_AL2 93.4636 seconds
+NJ FOR =  214_Arena_glycoprot 4.2917 seconds
+NJ FOR =  1347_FAINT 1006.8993 seconds
+NJ FOR =  1560_Ferritin 1391.6735 seconds
+NJ FOR =  777_Gemini_V1 169.5085 seconds
+NJ FOR =  304_A1_Propeptide 10.3782 seconds
+NJ FOR =  1493_Fe-ADH 1218.1801 seconds
